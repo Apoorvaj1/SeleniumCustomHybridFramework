@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <!--<test verbose="2" preserve-order="true" name="LoginPage_WhenNoDataEntered">
+        <classes>
+            <class name="org.selenium.aj.tests.OpenCartHomePage_Login"/>
+            <class name="org.selenium.aj.tests.LoginPage_NoData"/>
+        </classes>
+    </test>-->
+    <test verbose="2" preserve-order="true" name="DashboardPage_PositiveFlow">
+        <classes>
+            <class name="org.selenium.aj.tests.OpenCartHomePage_Login"/>
+            <class name="org.selenium.aj.tests.LoginPage"/>
+            <class name="org.selenium.aj.tests.DashboardPage"/>
+        </classes>
+    </test>
+</suite>
