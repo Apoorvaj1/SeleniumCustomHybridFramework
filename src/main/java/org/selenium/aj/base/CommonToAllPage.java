@@ -58,9 +58,6 @@ public class CommonToAllPage {
         Actions actions = new Actions(getDriver());
         return actions.moveToElement(getDriver().findElement(key));
     }
-    public void getData(By by, String key){
-         getDriver().findElement(by).sendKeys(key);
-    }
 
     public void addToCart(By by){
         clickElement(by);

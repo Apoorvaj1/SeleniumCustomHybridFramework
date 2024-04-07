@@ -23,6 +23,8 @@ public class ProductListPage extends CommonToAllTest {
         dashboardPom.select_iphone();
         productListPom.iphone_addToCart();
         Thread.sleep(3000);
+        dashboardPom.click_TotalCart();
+        Thread.sleep(3000);
 
     }
 

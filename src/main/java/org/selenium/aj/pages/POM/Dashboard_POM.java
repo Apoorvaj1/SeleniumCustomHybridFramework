@@ -13,6 +13,8 @@ public class Dashboard_POM extends CommonToAllPage {
 
     By Phones = By.linkText("Phones & PDAs");
 
+    By CartTotal = By.xpath("//span[@id=\"cart-total\"]");
+
     public void clickDesktops(){
         moveToElement(Desktops).build().perform();
     }
@@ -31,6 +33,9 @@ public class Dashboard_POM extends CommonToAllPage {
         clickElement(Phones);
     }
 
-
+    public void click_TotalCart(){
+        goForJavascriptExecutor(CartTotal);
+        clickElement(CartTotal);
+    }
 
 }

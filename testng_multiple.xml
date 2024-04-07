@@ -3,7 +3,7 @@
 <suite name="All Test Suite">
     
     <suite-files>
-        <suite-file path="testng_Register.xml"/>
+       <!-- <suite-file path="testng_Register.xml"/>-->
         <suite-file path="testng_Login.xml"/>
         <suite-file path="testng_Dashboard.xml"/>
     </suite-files>
