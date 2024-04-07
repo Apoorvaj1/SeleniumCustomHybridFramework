@@ -4,13 +4,18 @@ import com.github.javafaker.Faker;
 import org.openqa.selenium.By;
 import org.selenium.aj.base.CommonToAllPage;
 
+import static org.selenium.aj.driver.DriverManager.getDriver;
+
 public class RegisterPage_POM extends CommonToAllPage {
     Faker faker = new Faker();
+    public String email;
+    public String password12;
+
 
     String firstname_dyanamic = faker.name().firstName();
-    public String password = firstname_dyanamic+"rules";
+    String password = firstname_dyanamic+"rules";
 
-    public String mail_id = firstname_dyanamic+faker.number().randomDigit()+"@gmail.com";
+    String mail_id = firstname_dyanamic+faker.number().randomDigit()+"@gmail.com";
 
     public RegisterPage_POM(){
         super();
@@ -36,8 +41,9 @@ public class RegisterPage_POM extends CommonToAllPage {
         enterInput(LastName, faker.name().lastName());
     }
 
-    public void enterEmail(){
+    public String enterEmail(){
         enterInput(Email,mail_id);
+        return mail_id;
     }
 
     public void clickCheckbox(){
@@ -48,8 +54,9 @@ public class RegisterPage_POM extends CommonToAllPage {
         clickElement(Continue_button);
     }
 
-    public void setPassword(){
+    public String setPassword(){
         enterInput(Password,password);
+        return password;
     }
 
     public void setConfirmPassword(){
@@ -64,9 +71,13 @@ public class RegisterPage_POM extends CommonToAllPage {
         enterFirstName();
         enterLastName();
         enterEmail();
+        email = getDriver().findElement(By.xpath("//input[@id=\"input-email\"]")).getAttribute("value");
+        System.out.println(email);
         Thread.sleep(3000);
         enterTelephone();
         setPassword();
+        password12 = getDriver().findElement(By.xpath("//input[@id=\"input-password\"]")).getAttribute("value");
+        System.out.println(password12);
         setConfirmPassword();
         goForJavascriptExecutor(Checkbox);
         clickCheckbox();
@@ -80,5 +91,6 @@ public class RegisterPage_POM extends CommonToAllPage {
         presenceOfElement(error_message);
         return getElement(error_message).getText();
     }
+
 
 }

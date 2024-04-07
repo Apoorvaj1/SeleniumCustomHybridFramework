@@ -2,6 +2,7 @@ package org.selenium.aj.pages.POM;
 
 import org.openqa.selenium.By;
 import org.selenium.aj.base.CommonToAllPage;
+import org.selenium.aj.utils.PropertyReader;
 
 public class LoginPage_POM extends CommonToAllPage {
 
@@ -28,10 +29,18 @@ public class LoginPage_POM extends CommonToAllPage {
 
     public void enterAllData_LoginPage(){
         RegisterPage_POM registerPagePom = new RegisterPage_POM();
-        enterInput(EmailAddress_Login,registerPagePom.mail_id);
-        enterInput(Password_Login,registerPagePom.password);
+        enterInput(EmailAddress_Login, PropertyReader.readKey("EMAIL_ADDRESS"));
+        enterInput(Password_Login,PropertyReader.readKey("PASSWORD"));
+        //enterInput(EmailAddress_Login,registerPagePom.enterEmail());
+        //enterInput(Password_Login,registerPagePom.setPassword());
+        afterClickOnLogin();
         clickLogin();
 
+
+    }
+
+    public Dashboard_POM afterClickOnLogin(){
+        return new Dashboard_POM();
     }
 
 

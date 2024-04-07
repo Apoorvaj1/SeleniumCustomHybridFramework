@@ -11,12 +11,24 @@ public class Dashboard_POM extends CommonToAllPage {
     By Desktops = By.linkText("Desktops");
     By MAC = By.xpath("//a[contains(text(),\"Mac \")]");
 
+    By Phones = By.linkText("Phones & PDAs");
+
     public void clickDesktops(){
         moveToElement(Desktops).build().perform();
     }
 
+
+    public void clickPhones(){
+        moveToElement(Phones).build().perform();
+    }
+
+
     public void select_MAC(){
         clickElement(MAC);
+    }
+
+    public void select_iphone(){
+        clickElement(Phones);
     }
 
 

@@ -12,6 +12,7 @@
             <class name="org.selenium.aj.tests.OpenCartHomePage_Login"/>
             <class name="org.selenium.aj.tests.LoginPage"/>
             <class name="org.selenium.aj.tests.DashboardPage"/>
+            <class name="org.selenium.aj.tests.ProductListPage"/>
         </classes>
     </test>
 </suite>
