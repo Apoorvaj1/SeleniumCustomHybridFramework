@@ -13,7 +13,7 @@ public class RegisterPage_POM extends CommonToAllPage {
 
 
     final String firstname_dyanamic = faker.name().firstName();
-    final String password = firstname_dyanamic+"rules";
+    final String password = firstname_dyanamic+"rules123@";
 
     public String mail_id = firstname_dyanamic+faker.number().randomDigit()+"@gmail.com";
 
@@ -46,7 +46,6 @@ public class RegisterPage_POM extends CommonToAllPage {
         enterInput(Email,mail_id);
         return mail_id;
     }
-    String MAIL = this.mail_id;
 
     public void clickCheckbox(){
         clickElement(Checkbox);

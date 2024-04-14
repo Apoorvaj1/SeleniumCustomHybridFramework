@@ -9,7 +9,6 @@ import org.testng.annotations.Test;
 import java.io.IOException;
 
 public class LoginPage extends CommonToAllTest {
-
     @DataProvider(name = "loginData")
     public String[][] testDataExcel() throws IOException {
         String testDataFile = "src/test/resources/Book12.xlsx";
@@ -22,7 +21,14 @@ public class LoginPage extends CommonToAllTest {
     public void enterData_LoginPage(String username,String password) throws InterruptedException {
         LoginPage_POM loginPagePom = new LoginPage_POM();
         loginPagePom.enterAllData_LoginPage(username,password);
-        Thread.sleep(3000);
-
     }
+
+   /* @DataProvider(name = "loginData")
+    public Object[][] testData(){
+        return new Object[][]{
+                {"rahul@gmail.com","rules123@@"},
+                {"kunal@gmail.com","kunal123@@"},
+                {"Isaiah3@gmail.com","Isaiahrules"}
+        };
+    }*/
 }

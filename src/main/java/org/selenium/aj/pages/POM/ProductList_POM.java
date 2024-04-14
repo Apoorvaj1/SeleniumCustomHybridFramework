@@ -16,6 +16,10 @@ public class ProductList_POM extends CommonToAllPage {
 
     By checkout = By.linkText("Checkout");
 
+    By logout = By.linkText("Logout");
+
+    By Continue = By.linkText("Continue");
+
     public void clickViewCart(){
         clickElement(viewCart);
     }
@@ -39,6 +43,14 @@ public class ProductList_POM extends CommonToAllPage {
     public void iphone_addToCart(){
         goForJavascriptExecutor(AddToCart_iPhone);
         addToCart(AddToCart_iPhone);
+    }
+
+    public void clickLogout(){
+        clickElement(logout);
+    }
+
+    public void clickContinue(){
+        clickElement(Continue);
     }
 
 }

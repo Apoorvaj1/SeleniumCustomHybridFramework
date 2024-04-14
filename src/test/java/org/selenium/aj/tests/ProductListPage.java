@@ -30,8 +30,12 @@ public class ProductListPage extends CommonToAllTest {
         productListPom.clickViewCart();
         Thread.sleep(3000);
         productListPom.clickCheckout();
-        Thread.sleep(10000);
-
+        Thread.sleep(5000);
+        dashboardPom.clickMyAccount();
+        Thread.sleep(3000);
+        productListPom.clickLogout();
+        Thread.sleep(3000);
+        productListPom.clickContinue();
     }
 
 }
