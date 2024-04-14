@@ -2,7 +2,6 @@ package org.selenium.aj.base;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -15,6 +14,7 @@ import static org.selenium.aj.driver.DriverManager.getDriver;
 
 public class CommonToAllPage {
     public CommonToAllPage() {
+        super();
     }
 
     public void openCartLoginURL() {
@@ -33,12 +33,19 @@ public class CommonToAllPage {
         getDriver().findElement(by).click();
     }
 
+    public void clickElement(WebElement by){
+        by.click();
+    }
+
     public void enterInput(By by, String key) {
         getDriver().findElement(by).sendKeys(key);
     }
+    public void enterInput(WebElement element, String key) {
+        element.sendKeys(key);
+    }
 
     public WebElement presenceOfElement(By elementLocation) {
-        return new WebDriverWait(getDriver(), Duration.ofSeconds(20)).until(    ExpectedConditions.presenceOfElementLocated(elementLocation));
+        return new WebDriverWait(getDriver(), Duration.ofSeconds(20)).until(ExpectedConditions.presenceOfElementLocated(elementLocation));
     }
 
     public WebElement visibilityOfElement(By elementLocation) {
@@ -47,6 +54,10 @@ public class CommonToAllPage {
 
     public WebElement getElement(By key) {
         return getDriver().findElement(key);
+    }
+
+    public String getElementText(By key){
+        return getDriver().findElement(key).getText();
     }
 
     public void goForJavascriptExecutor(By key){

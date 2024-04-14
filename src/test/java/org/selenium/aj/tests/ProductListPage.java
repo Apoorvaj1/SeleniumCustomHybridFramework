@@ -16,7 +16,7 @@ public class ProductListPage extends CommonToAllTest {
         Thread.sleep(3000);
 
     }
-    @Test
+    @Test (dependsOnMethods = "addProduct_iMAC")
     public void addProduct_iphone() throws InterruptedException {
         dashboardPom = new Dashboard_POM();
         dashboardPom.clickPhones();
@@ -25,6 +25,12 @@ public class ProductListPage extends CommonToAllTest {
         Thread.sleep(3000);
         dashboardPom.click_TotalCart();
         Thread.sleep(3000);
+        System.out.println(productListPom.totalValue());
+        Thread.sleep(3000);
+        productListPom.clickViewCart();
+        Thread.sleep(3000);
+        productListPom.clickCheckout();
+        Thread.sleep(10000);
 
     }
 

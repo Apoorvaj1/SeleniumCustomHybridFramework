@@ -1,0 +1,7 @@
+
+”	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ï÷Šœùÿÿÿÿ8¢²É×í1J$9be8aa11-4133-4e23-ad20-e91588944b2a
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÕºĞ÷8£²É×í1J$ba74b0bb-c1fe-48d1-8b6a-ece0f6a37b2b
+›	java:S116"TRename this field "AddToCart" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Óƒ¾öıÿÿÿÿ8§²É×í1J$bba456bd-6750-4602-83ed-57f2e39e9a06
+¢	java:S116"[Rename this field "AddToCart_iPhone" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”²âÀúÿÿÿÿ8§²É×í1J$d389b1de-623c-457f-a634-a074423ccffa
+	java:S100""NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Âç¶q8ª²É×í1J$b153c5c6-6f62-4994-a881-e299ad9935f0
+	java:S100'"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾±Ïì8ª²É×í1J$477b90c8-0795-4ff1-8931-d9733415fbf5

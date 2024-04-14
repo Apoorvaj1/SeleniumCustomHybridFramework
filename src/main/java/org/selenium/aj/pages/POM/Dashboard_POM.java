@@ -15,6 +15,10 @@ public class Dashboard_POM extends CommonToAllPage {
 
     By CartTotal = By.xpath("//span[@id=\"cart-total\"]");
 
+    By MyAccount = By.xpath("//span[text()=\"My Account\"]");
+
+    By MyAccount_Dropdown = By.xpath("(//a[text()=\"Transactions\"])[1]");
+
     public void clickDesktops(){
         moveToElement(Desktops).build().perform();
     }
@@ -38,4 +42,10 @@ public class Dashboard_POM extends CommonToAllPage {
         clickElement(CartTotal);
     }
 
+    public void clickMyAccount(){
+        clickElement(MyAccount);
+    }
+    public String verifyMyAccountText(){
+        return getElementText(MyAccount_Dropdown);
+    }
 }

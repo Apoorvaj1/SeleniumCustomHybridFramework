@@ -19,6 +19,8 @@ public class HomePage_POM extends CommonToAllPage {
 
     By LoginDropdown = By.linkText("Login");
 
+    By Logout = By.linkText("Logout");
+
     public void clickMyAccount(){
         clickElement(MyAccount);
     }
@@ -36,6 +38,10 @@ public class HomePage_POM extends CommonToAllPage {
     }
     public LoginPage_POM afterClickOnLogin(){
         return new LoginPage_POM();
+    }
+
+    public void clickLogout(){
+        clickElement(Logout);
     }
 
 }

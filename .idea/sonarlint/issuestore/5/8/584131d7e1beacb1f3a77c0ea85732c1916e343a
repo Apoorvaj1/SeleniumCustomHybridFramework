@@ -1,0 +1,11 @@
+
+€
+java:S2259"?A "NullPointerException" could be thrown; "p" is nullable here.(ÈÀ»îøÿÿÿÿJ$164398cf-8778-4eab-bc87-1c140493dea3
+Ž
+java:S2259"MA "NullPointerException" could be thrown; "fileInputStream" is nullable here.(Ûû¼­øÿÿÿÿJ$eeeba368-eb10-454e-a90f-391bdb2e77ea
+½
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¼ë³øJ$607dc252-92ed-4a4d-9763-53b4587d165f
+Y
+java:S1118"Hide this public constructor.(¼ë³øJ$78a74229-c30f-44aa-97f6-affec600fb1e
+k
+java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿJ$a04f4420-f997-4d4e-b7fc-c99776220d50

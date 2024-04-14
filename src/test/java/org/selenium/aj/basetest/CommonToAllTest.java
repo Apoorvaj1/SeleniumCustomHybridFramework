@@ -1,6 +1,7 @@
 package org.selenium.aj.basetest;
 
 import org.selenium.aj.driver.DriverManager;
+import org.selenium.aj.driver.DriverManagerTL;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 

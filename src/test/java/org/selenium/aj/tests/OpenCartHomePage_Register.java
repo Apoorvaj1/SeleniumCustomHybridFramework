@@ -19,8 +19,5 @@ public class OpenCartHomePage_Register extends CommonToAllTest {
         homepagepom.openCartRegisterURL();
         homepagepom.afterClickOnRegister();
         Assert.assertEquals(getDriver().getCurrentUrl(), PropertyReader.readKey("URL_REGISTER"));
-        /*System.out.println(getDriver().getCurrentUrl());
-        System.out.println("Yeah it's working");*/
-
     }
 }
