@@ -4,7 +4,7 @@ import org.selenium.aj.pages.POM.HomePage_POM;
 import org.selenium.aj.utils.PropertyReader;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import static org.selenium.aj.driver.DriverManager.getDriver;
+import static org.selenium.aj.driver.DriverManagerTL.getDriver;
 
 public class OpenCartHomePage_Register extends CommonToAllTest {
 

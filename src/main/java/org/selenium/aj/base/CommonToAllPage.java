@@ -10,7 +10,7 @@ import org.selenium.aj.utils.PropertyReader;
 
 import java.time.Duration;
 
-import static org.selenium.aj.driver.DriverManager.getDriver;
+import static org.selenium.aj.driver.DriverManagerTL.getDriver;
 
 public class CommonToAllPage {
     public CommonToAllPage() {

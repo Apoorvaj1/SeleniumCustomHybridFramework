@@ -5,7 +5,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
 import org.selenium.aj.base.CommonToAllPage;
 
-import static org.selenium.aj.driver.DriverManager.getDriver;
+import static org.selenium.aj.driver.DriverManagerTL.getDriver;
 
 public class LoginPage_POM extends CommonToAllPage {
 
@@ -53,10 +53,11 @@ public class LoginPage_POM extends CommonToAllPage {
         enterInput(EmailAddress_Login, username);
         enterInput(Password_Login,password);
         clickLogin();
+        afterClickOnLogin();
         Thread.sleep(2000);
         clearLoginPageCredentials();
         Thread.sleep(2000);
-        afterClickOnLogin();
+
     }
 
     public Dashboard_POM afterClickOnLogin(){

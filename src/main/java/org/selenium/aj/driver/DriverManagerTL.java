@@ -24,14 +24,19 @@ public class DriverManagerTL {
 
 
         public static void init() {
-            if (Objects.isNull(DriverManager.getDriver())) {
-                WebDriver driver = new EdgeDriver();
+            if (Objects.isNull(DriverManagerTL.getDriver())) {
+                EdgeOptions edgeOptions = new EdgeOptions();
+                edgeOptions.addArguments("--start-maximized");
+                edgeOptions.addArguments("--guest");
+                edgeOptions.addArguments("--incognito");
+                edgeOptions.addArguments("--user-agent= Edge/122.0.2365.92");
+                WebDriver driver = new EdgeDriver(edgeOptions);
                 setDriver(driver);
             }
         }
 
         public static void down() {
-            if(Objects.nonNull(DriverManager.getDriver())){
+            if(Objects.nonNull(DriverManagerTL.getDriver())){
                 getDriver().quit();
                 unload();
             }

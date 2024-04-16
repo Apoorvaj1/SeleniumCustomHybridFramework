@@ -4,7 +4,7 @@ import com.github.javafaker.Faker;
 import org.openqa.selenium.By;
 import org.selenium.aj.base.CommonToAllPage;
 
-import static org.selenium.aj.driver.DriverManager.getDriver;
+import static org.selenium.aj.driver.DriverManagerTL.getDriver;
 
 public class RegisterPage_POM extends CommonToAllPage {
     Faker faker = new Faker();

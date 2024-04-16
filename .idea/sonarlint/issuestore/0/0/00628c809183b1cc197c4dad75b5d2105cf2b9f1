@@ -1,10 +1,10 @@
 
-”	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(„Æà¢üÿÿÿÿ8÷·¿½í1J$0bd25975-49d5-4067-bbb3-6c6146449e20
-œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÕºĞ÷8ù·¿½í1J$df49dc0a-dc81-4b8f-bbe6-5a9279e314bb
-›	java:S116"TRename this field "MyAccount" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎÅåîÿÿÿÿÿ8ı·¿½í1J$4c4d7336-7354-48ad-9206-062de660197c
-”	java:S116"SRename this field "Currency" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘åäs8ı·¿½í1J$6043b09d-6091-4f46-a752-cdb4145869fc
-™	java:S116"WRename this field "ShoppingCart" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àíâ8ı·¿½í1J$b2351566-d8a8-417a-af82-55f209bffe8e
-•	java:S116"SRename this field "Checkout" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­ŠÍÂ8ı·¿½í1J$5e1704fb-8aab-4c0c-bd59-4879c07df4de
-œ	java:S116"[Rename this field "RegisterDropdown" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯ÀÜ8ı·¿½í1J$ec25db46-be4f-4625-9e93-f841ae6a7aac
-š	java:S116"XRename this field "LoginDropdown" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ş½İ8ı·¿½í1J$27e076a0-39ed-45e9-a3cf-9ebe48c889d3
-˜	java:S116"QRename this field "Logout" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•©íñøÿÿÿÿ8ı·¿½í1J$5d412816-cbe2-4783-bb48-0eb0e051e53b
+”	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(„Æà¢üÿÿÿÿ8÷·¿½í1J$e8c32e42-5d6b-4ece-8b90-0fa97d617f8d
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÕºĞ÷8ù·¿½í1J$bbe8e304-7376-42af-be14-6ca34c9a0625
+›	java:S116"TRename this field "MyAccount" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎÅåîÿÿÿÿÿ8ı·¿½í1J$23d3ea82-5937-4c8b-b2cc-7ee5aa0c373e
+”	java:S116"SRename this field "Currency" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘åäs8ı·¿½í1J$a84a637e-625e-4147-bceb-afd27fd5e0ea
+™	java:S116"WRename this field "ShoppingCart" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àíâ8ı·¿½í1J$ea083af4-759e-4ec6-86f7-d06f6e190aca
+•	java:S116"SRename this field "Checkout" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­ŠÍÂ8ı·¿½í1J$57f9fa97-3d1e-42c9-a334-0b1371818e85
+œ	java:S116"[Rename this field "RegisterDropdown" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯ÀÜ8ı·¿½í1J$e1895faf-7d35-4e93-a7be-197ae9c6f4a2
+š	java:S116"XRename this field "LoginDropdown" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ş½İ8ı·¿½í1J$cbe71f0b-a343-4390-a9c3-e1a7985abebb
+˜	java:S116"QRename this field "Logout" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•©íñøÿÿÿÿ8ı·¿½í1J$9198c9a7-f638-4f77-9e8d-07d030e5dc57

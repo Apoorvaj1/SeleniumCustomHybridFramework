@@ -1,12 +1,13 @@
 package org.selenium.aj.tests;
 
 import org.selenium.aj.basetest.CommonToAllTest;
+import org.selenium.aj.driver.DriverManagerTL;
 import org.selenium.aj.pages.POM.HomePage_POM;
 import org.selenium.aj.utils.PropertyReader;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import static org.selenium.aj.driver.DriverManager.getDriver;
+import static org.selenium.aj.driver.DriverManagerTL.getDriver;
 
 public class OpenCartHomePage_Login extends CommonToAllTest {
 

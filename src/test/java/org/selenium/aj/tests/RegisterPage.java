@@ -5,7 +5,7 @@ import org.selenium.aj.basetest.CommonToAllTest;
 import org.selenium.aj.pages.POM.RegisterPage_POM;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import static org.selenium.aj.driver.DriverManager.getDriver;
+import static org.selenium.aj.driver.DriverManagerTL.getDriver;
 
 public class RegisterPage extends CommonToAllTest {
 

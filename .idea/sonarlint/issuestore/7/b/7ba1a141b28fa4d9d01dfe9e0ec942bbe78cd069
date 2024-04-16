@@ -1,7 +1,7 @@
 
 Õ
-java:S3577"ŒRename class "DashboardPage" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(¹°ø“ÿÿÿÿÿ8÷Íãºí1J$d7a4f411-2817-4f8d-ac0e-035b0adb3a2e
+java:S3577"ŒRename class "DashboardPage" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(¹°ø“ÿÿÿÿÿ8÷Íãºí1J$1f421e71-9e4f-4d95-a771-4f028ea00c80
 g
-java:S2925"$Remove this use of "Thread.sleep()".(¯ú™ú8üÍãºí1J$fb8dad20-c485-4dd6-bdc3-e420d5bfb133
+java:S2925"$Remove this use of "Thread.sleep()".(¯ú™ú8üÍãºí1J$d3dd8442-bd09-49d7-b275-8b658626d05f
 g
-java:S2925"$Remove this use of "Thread.sleep()".(öÍËè8£“Š¾í1J$4b3f04d5-fcf3-44fd-8514-86ba2c9a2b27
+java:S2925"$Remove this use of "Thread.sleep()".(öÍËè8£“Š¾í1J$6ff88e38-4a6e-4b62-bc40-4a6b62591945

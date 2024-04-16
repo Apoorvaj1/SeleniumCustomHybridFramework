@@ -9,11 +9,11 @@ public class CommonToAllTest {
 
     @BeforeTest
     public void setUp(){
-        DriverManager.init();
+        DriverManagerTL.init();
     }
 
     @AfterTest
     public void tearDown(){
-        DriverManager.down();
+        DriverManagerTL.down();
     }
 }

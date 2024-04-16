@@ -43,3 +43,7 @@ b
 2src/test/java/org/selenium/aj/DDT/ExcelReader.java,3\b\3b334c73976cc79f9ebef4dd9bea7c26c55b2cee
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+i
+9src/test/java/org/selenium/aj/tests/LoginPage_NoData.java,e\1\e14d853d8cd447df7c83311057f43bab3500e17c
+l
+<src/test/java/org/selenium/aj/tests/RegisterPage_NoData.java,6\1\61f536dee3a6fa5d818d5475b688e641443401c3
