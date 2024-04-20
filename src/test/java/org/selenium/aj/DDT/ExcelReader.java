@@ -10,7 +10,8 @@ import java.util.Map;
 import java.util.TreeMap;
 
 public class ExcelReader {
-    public ExcelReader(String testDataFile) {
+    public ExcelReader() {
+        super();
     }
 
     public String[][] getDataFromSheet(String workbooklocation, String workSheetName) throws IOException {

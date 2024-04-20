@@ -14,13 +14,12 @@ public class OpenCartHomePage_Login extends CommonToAllTest {
     @Test
     public void clickLoginOption() throws InterruptedException {
         HomePage_POM homepagepom = new HomePage_POM();
-        homepagepom.openCartHomeURL();
+        homepagepom.openURL(PropertyReader.readKey("URL_HOMEPAGE"));
         homepagepom.clickMyAccount();
         Thread.sleep(2000);
         homepagepom.clickLogin();
         Thread.sleep(2000);
-        homepagepom.afterClickOnLogin();
-        homepagepom.openCartLoginURL();
+        homepagepom.openURL(PropertyReader.readKey("URL_LOGIN"));
         Assert.assertEquals(getDriver().getCurrentUrl(), PropertyReader.readKey("URL_LOGIN"));
 
     }

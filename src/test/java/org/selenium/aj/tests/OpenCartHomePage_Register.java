@@ -11,12 +11,12 @@ public class OpenCartHomePage_Register extends CommonToAllTest {
     @Test
     public void clickRegisterOption() throws InterruptedException {
         HomePage_POM homepagepom = new HomePage_POM();
-        homepagepom.openCartHomeURL();
+        homepagepom.openURL(PropertyReader.readKey("URL_HOMEPAGE"));
         homepagepom.clickMyAccount();
         Thread.sleep(2000);
         homepagepom.clickRegister();
         Thread.sleep(2000);
-        homepagepom.openCartRegisterURL();
+        homepagepom.openURL(PropertyReader.readKey("URL_REGISTER"));
         homepagepom.afterClickOnRegister();
         Assert.assertEquals(getDriver().getCurrentUrl(), PropertyReader.readKey("URL_REGISTER"));
     }

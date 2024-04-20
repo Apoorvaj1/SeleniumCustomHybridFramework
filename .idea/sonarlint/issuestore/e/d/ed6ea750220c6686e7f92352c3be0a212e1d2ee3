@@ -1,19 +1,19 @@
 
 „
-java:S3577"ОRename class "ProductListPage" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(±ђ–ћщ€€€€8¶їцен1J$4228690c-c5e4-46a5-ad27-3d922cff27c6
+java:S3577"ОRename class "ProductListPage" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(±ђ–ћщ€€€€8¶їцен1J$7a291e79-bb45-437e-b4fd-7a410df2929d
 g
-java:S2925"$Remove this use of "Thread.sleep()".(цЌЋи8Іїцен1J$6d03ed45-f4a2-4259-9510-a51409b196be
+java:S2925"$Remove this use of "Thread.sleep()".(цЌЋи8Іїцен1J$ab7e84df-4e8c-4a62-a3d6-ffd4d59f083b
 g
-java:S2925"$Remove this use of "Thread.sleep()".(цЌЋи8Іїцен1J$7fb802ba-db86-4ce5-bfbe-811009177a9d
+java:S2925"$Remove this use of "Thread.sleep()".(цЌЋи8Іїцен1J$942342ac-c74b-43ee-a095-2256544c02cc
 g
-java:S2925"$Remove this use of "Thread.sleep()".(цЌЋи8Іїцен1J$ff307050-cbe4-4f90-8432-0a788f328f51
+java:S2925"$Remove this use of "Thread.sleep()".(цЌЋи8Іїцен1J$77051e7a-3aed-4c2e-9bdf-f584d16cdaaf
 g
-java:S2925"$Remove this use of "Thread.sleep()".(цЌЋи8Іїцен1J$b7c4d213-9293-4234-985e-74b850534098
+java:S2925"$Remove this use of "Thread.sleep()".(цЌЋи8Іїцен1J$7281e914-2913-4d34-b64d-dcfb6d1e04db
 g
-java:S2925"$Remove this use of "Thread.sleep()".(цЌЋи8Іїцен1J$755ac7e2-e3f3-4b59-b32e-e27093a8ca1f
+java:S2925"$Remove this use of "Thread.sleep()".(цЌЋи8Іїцен1J$0bdced8f-c95b-4ff7-9131-5abe87831b6e
 g
-java:S2925!"$Remove this use of "Thread.sleep()".(ђ∆Д∞8Іїцен1J$017cde18-8081-460a-883f-c12dfc1a0399
+java:S2925!"$Remove this use of "Thread.sleep()".(ђ∆Д∞8Іїцен1J$6e9c8f25-0a4c-42f0-b953-4314b12e47f9
 g
-java:S2925#"$Remove this use of "Thread.sleep()".(цЌЋи8Іїцен1J$36a4a4c2-0685-4587-948f-b84f1e499d9e
+java:S2925#"$Remove this use of "Thread.sleep()".(цЌЋи8Іїцен1J$c2be36d1-d3ed-4059-900c-a341def65416
 g
-java:S2925%"$Remove this use of "Thread.sleep()".(цЌЋи8Іїцен1J$b3facc83-94fb-4baf-8dc6-2a0ee42a4962
+java:S2925%"$Remove this use of "Thread.sleep()".(цЌЋи8Іїцен1J$fce45bd7-436e-428b-8ed3-65057f0ecfa6

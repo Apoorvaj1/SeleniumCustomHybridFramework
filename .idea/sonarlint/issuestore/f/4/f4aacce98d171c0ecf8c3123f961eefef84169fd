@@ -1,7 +1,7 @@
 
-Ú
-java:S3577	"˜Rename class "OpenCartHomePage_Register" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(èüúÚûÿÿÿÿJ$b437f139-f1a0-4bda-8b0b-6baa7bb7f89c
-`
-java:S2925"$Remove this use of "Thread.sleep()".(¯ú™úJ$24c49bbb-4b25-4be4-b05b-6022759f9dc4
-`
-java:S2925"$Remove this use of "Thread.sleep()".(¯ú™úJ$5bbcb99d-5b59-4149-9fe2-f896d46fbd5c
+á
+java:S3577	"˜Rename class "OpenCartHomePage_Register" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(èüúÚûÿÿÿÿ8™Ì‘Äî1J$bb02a43f-61ae-45a7-99a9-58a6faf36c78
+g
+java:S2925"$Remove this use of "Thread.sleep()".(¯ú™ú8›Ì‘Äî1J$ba994ff1-143b-49f4-a6a8-7d1c5da1ab3a
+g
+java:S2925"$Remove this use of "Thread.sleep()".(¯ú™ú8›Ì‘Äî1J$7b88a7af-e610-4036-adbf-ceaad36a5418

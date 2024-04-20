@@ -1,6 +1,6 @@
 
 È
 java:S3577
-"‹Rename class "RegisterPage" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(·ÖûªJ$01f27aa8-a4be-400b-b026-fff2c93771dc
+"‹Rename class "RegisterPage" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(·ÖûªJ$8b775b84-08c8-4b50-b8cd-2739dac3ae23
 `
-java:S2925"$Remove this use of "Thread.sleep()".(öÍËèJ$ee951334-5ee8-4a9d-8dd4-e0a9eaceb656
+java:S2925"$Remove this use of "Thread.sleep()".(öÍËèJ$d46a1622-b76f-4054-b7f7-d47935348fb5

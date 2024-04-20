@@ -44,4 +44,8 @@ public class HomePage_POM extends CommonToAllPage {
         clickElement(Logout);
     }
 
+    public void verifyCurrency(){
+        presenceOfElement(Currency);
+    }
+
 }

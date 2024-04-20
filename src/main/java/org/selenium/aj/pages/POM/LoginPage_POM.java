@@ -13,7 +13,7 @@ public class LoginPage_POM extends CommonToAllPage {
         super();
     }
 
-    By login_button = By.xpath("//input[@type=\"submit\"]");
+    By login_button = By.xpath("//input[@value=\"Login\"]");
     By error_message_login = By.xpath("//div[text()=\" Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.\"]");
 
     By EmailAddress_Login = By.xpath("//input[@id=\"input-email\"]");
@@ -22,6 +22,10 @@ public class LoginPage_POM extends CommonToAllPage {
 
     public void clickLogin(){
         clickElement(login_button);
+    }
+
+    public Dashboard_POM afterClickOnLogin123(){
+        return new Dashboard_POM();
     }
     public String error_message_login(){
         clickLogin();
@@ -48,22 +52,20 @@ public class LoginPage_POM extends CommonToAllPage {
                 .perform();
 
     }
-
-    public void enterAllData_LoginPage(String username, String password) throws InterruptedException {
+    public void enterAllData_LoginPage(String scenario, String username, String password) throws InterruptedException {
         enterInput(EmailAddress_Login, username);
         enterInput(Password_Login,password);
+        Thread.sleep(2000);
         clickLogin();
-        afterClickOnLogin();
-        Thread.sleep(2000);
-        clearLoginPageCredentials();
-        Thread.sleep(2000);
+
+        if(scenario.equals("both_wrong") && error_message_login().contains("Please try again in 1 hour")){
+            clearLoginPageCredentials();
+            System.out.println(getDriver().getCurrentUrl());
+        }
+        if(scenario.equals("both_correct")){
+            afterClickOnLogin123();
+        }
+        Thread.sleep(3000);
 
     }
-
-    public Dashboard_POM afterClickOnLogin(){
-        return new Dashboard_POM();
-    }
-
-
-
 }

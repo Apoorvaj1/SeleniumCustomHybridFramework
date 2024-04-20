@@ -47,3 +47,7 @@ i
 9src/test/java/org/selenium/aj/tests/LoginPage_NoData.java,e\1\e14d853d8cd447df7c83311057f43bab3500e17c
 l
 <src/test/java/org/selenium/aj/tests/RegisterPage_NoData.java,6\1\61f536dee3a6fa5d818d5475b688e641443401c3
+^
+.src/test/java/OrangeHRMProject/OrangeTest.java,1\e\1e5ccf589380e4a97e60f1041b838a91c4b17e33
+@
+Paralleltest.xml,b\7\b79062b1d24e2acbd6e5f7a20070315cdf9a441a

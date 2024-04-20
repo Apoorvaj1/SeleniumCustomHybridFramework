@@ -17,16 +17,8 @@ public class CommonToAllPage {
         super();
     }
 
-    public void openCartLoginURL() {
-        getDriver().get(PropertyReader.readKey("URL_LOGIN"));
-    }
-
-    public void openCartRegisterURL() {
-        getDriver().get(PropertyReader.readKey("URL_REGISTER"));
-    }
-
-    public void openCartHomeURL() {
-        getDriver().get(PropertyReader.readKey("URL_HOMEPAGE"));
+    public void openURL(String url){
+        getDriver().get(url);
     }
 
     public void clickElement(By by) {

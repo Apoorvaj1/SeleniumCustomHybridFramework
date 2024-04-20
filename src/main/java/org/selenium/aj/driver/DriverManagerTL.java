@@ -29,7 +29,7 @@ public class DriverManagerTL {
                 edgeOptions.addArguments("--start-maximized");
                 edgeOptions.addArguments("--guest");
                 edgeOptions.addArguments("--incognito");
-                edgeOptions.addArguments("--user-agent= Edge/122.0.2365.92");
+                edgeOptions.addArguments("--user-agent= Edge/123.0.2420.97");
                 WebDriver driver = new EdgeDriver(edgeOptions);
                 setDriver(driver);
             }
