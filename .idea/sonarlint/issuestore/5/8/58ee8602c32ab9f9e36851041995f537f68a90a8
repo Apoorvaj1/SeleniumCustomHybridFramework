@@ -1,12 +1,12 @@
 
-	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Êâ«ç8â‚…»í1J$fe950d91-c3b2-4ded-8148-6be23ac06824
-œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÕºĞ÷8ä‚…»í1J$748b0fbc-f33a-450b-9bfd-a92b79e280ff
-•	java:S116"SRename this field "Desktops" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»Ñ¤¾8é‚…»í1J$1cd22565-169b-4a11-abfd-3d6d48e61761
-•	java:S116"NRename this field "MAC" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æ£äôøÿÿÿÿ8é‚…»í1J$00874f80-079c-414a-b469-05115304df0d
-˜	java:S116"QRename this field "Phones" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘’õªüÿÿÿÿ8é‚…»í1J$469c310a-61f6-4e6a-843d-62811aa58fa6
-–	java:S116"TRename this field "CartTotal" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜•ûÑ8é‚…»í1J$0b2db341-3dd4-404c-b0bf-bb0181b6652a
-–	java:S116"TRename this field "MyAccount" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­ş§­8é‚…»í1J$ad303f40-fb08-4c96-bb51-dd529a317747
-Ÿ	java:S116"]Rename this field "MyAccount_Dropdown" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉÅĞµ8é‚…»í1J$00013ee6-53ae-4616-b863-1193868b9c1d
-	java:S100 "NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êÃ‰Æ8î‚…»í1J$9e34727d-4c87-461f-bbfc-bb3731dd1d41
-•	java:S100$"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©ã¥ûÿÿÿÿ8î‚…»í1J$000d37e1-4601-4f94-979a-028097dbc4d4
-•	java:S100("NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Šıûôıÿÿÿÿ8ï‚…»í1J$384bb2d0-d3e3-46e9-9d0a-534e8a25adf6
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Êâ«ç8â‚…»í1J$2bd2b497-6363-41fa-833e-5b4828a3cd88
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÕºĞ÷8ä‚…»í1J$bc199c70-cba4-4486-b770-5bb488f052b5
+•	java:S116"SRename this field "Desktops" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»Ñ¤¾8é‚…»í1J$b7678dd7-38ca-40fc-8f21-dd1811c4d4c7
+•	java:S116"NRename this field "MAC" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æ£äôøÿÿÿÿ8é‚…»í1J$d2df0335-09d3-49ee-81e1-195ad79702d8
+˜	java:S116"QRename this field "Phones" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘’õªüÿÿÿÿ8é‚…»í1J$c1f4319c-b54d-4f5d-a1b9-9f8b8718796d
+–	java:S116"TRename this field "CartTotal" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜•ûÑ8é‚…»í1J$ec031919-40d5-4985-8f17-0067a8ea76b4
+–	java:S116"TRename this field "MyAccount" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­ş§­8é‚…»í1J$75573e0b-e5f6-4a73-a292-41e7863c1197
+Ÿ	java:S116"]Rename this field "MyAccount_Dropdown" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉÅĞµ8é‚…»í1J$c3df7e7f-8ac8-49d5-8e90-7fa27fa57ac7
+	java:S100 "NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êÃ‰Æ8î‚…»í1J$55e9b6c7-2db1-4f03-9613-425f70675c25
+•	java:S100$"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©ã¥ûÿÿÿÿ8î‚…»í1J$ce1b6b6f-3d24-470a-af47-420f6519b9e8
+•	java:S100("NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Šıûôıÿÿÿÿ8ï‚…»í1J$073c24c3-500e-45f8-87b2-771c2fc00593

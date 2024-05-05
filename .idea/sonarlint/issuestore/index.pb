@@ -51,3 +51,5 @@ l
 .src/test/java/OrangeHRMProject/OrangeTest.java,1\e\1e5ccf589380e4a97e60f1041b838a91c4b17e33
 @
 Paralleltest.xml,b\7\b79062b1d24e2acbd6e5f7a20070315cdf9a441a
+_
+/src/main/java/org/selenium/aj/utils/Helper.java,1\b\1bdefe4e892bd8d301c61370ae4100d4c1c21b63
