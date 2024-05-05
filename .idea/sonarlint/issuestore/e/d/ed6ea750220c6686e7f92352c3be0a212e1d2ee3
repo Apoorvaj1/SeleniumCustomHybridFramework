@@ -1,19 +1,19 @@
 
 ×
-java:S3577"Rename class "ProductListPage" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(±¬ĞÌùÿÿÿÿ8¦»öåí1J$7a291e79-bb45-437e-b4fd-7a410df2929d
+java:S3577"Rename class "ProductListPage" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(±¬ĞÌùÿÿÿÿ8¦»öåí1J$68ef1796-2d7b-4fbd-9350-2266068243bf
 g
-java:S2925"$Remove this use of "Thread.sleep()".(öÍËè8§»öåí1J$ab7e84df-4e8c-4a62-a3d6-ffd4d59f083b
+java:S2925"$Remove this use of "Thread.sleep()".(öÍËè8ùÄ¸ô1J$b37de328-55bd-4c98-8480-ed2aab13977f
 g
-java:S2925"$Remove this use of "Thread.sleep()".(öÍËè8§»öåí1J$942342ac-c74b-43ee-a095-2256544c02cc
+java:S2925"$Remove this use of "Thread.sleep()".(öÍËè8ùÄ¸ô1J$6f64b7d6-1c14-4938-ae4f-83c8313646c2
 g
-java:S2925"$Remove this use of "Thread.sleep()".(öÍËè8§»öåí1J$77051e7a-3aed-4c2e-9bdf-f584d16cdaaf
+java:S2925"$Remove this use of "Thread.sleep()".(öÍËè8ùÄ¸ô1J$a8ce25e3-e346-4861-b03e-1a0ce73eb584
 g
-java:S2925"$Remove this use of "Thread.sleep()".(öÍËè8§»öåí1J$7281e914-2913-4d34-b64d-dcfb6d1e04db
+java:S2925"$Remove this use of "Thread.sleep()".(öÍËè8ùÄ¸ô1J$883604a2-89a8-4aa1-875b-947a14971a3a
 g
-java:S2925"$Remove this use of "Thread.sleep()".(öÍËè8§»öåí1J$0bdced8f-c95b-4ff7-9131-5abe87831b6e
+java:S2925"$Remove this use of "Thread.sleep()".(öÍËè8ùÄ¸ô1J$700f5c1b-e2f0-427b-b9eb-a84eaa68c27f
 g
-java:S2925!"$Remove this use of "Thread.sleep()".(¬Æ„°8§»öåí1J$6e9c8f25-0a4c-42f0-b953-4314b12e47f9
+java:S2925!"$Remove this use of "Thread.sleep()".(¬Æ„°8ùÄ¸ô1J$ec98014f-abc3-441a-ae5d-e4b06c020c53
 g
-java:S2925#"$Remove this use of "Thread.sleep()".(öÍËè8§»öåí1J$c2be36d1-d3ed-4059-900c-a341def65416
-g
-java:S2925%"$Remove this use of "Thread.sleep()".(öÍËè8§»öåí1J$fce45bd7-436e-428b-8ed3-65057f0ecfa6
+java:S2925#"$Remove this use of "Thread.sleep()".(öÍËè8ùÄ¸ô1J$f7f102ff-2799-4025-893d-06ad92bd0923
+A
+java:S2925%"$Remove this use of "Thread.sleep()".(öÍËè8–•Å¸ô1

@@ -5,6 +5,8 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
 import org.selenium.aj.base.CommonToAllPage;
 
+import java.time.Duration;
+
 import static org.selenium.aj.driver.DriverManagerTL.getDriver;
 
 public class LoginPage_POM extends CommonToAllPage {
@@ -55,7 +57,7 @@ public class LoginPage_POM extends CommonToAllPage {
     public void enterAllData_LoginPage(String scenario, String username, String password) throws InterruptedException {
         enterInput(EmailAddress_Login, username);
         enterInput(Password_Login,password);
-        Thread.sleep(2000);
+        getDriver().manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
         clickLogin();
 
         if(scenario.equals("both_wrong") && error_message_login().contains("Please try again in 1 hour")){
@@ -64,6 +66,7 @@ public class LoginPage_POM extends CommonToAllPage {
         }
         if(scenario.equals("both_correct")){
             afterClickOnLogin123();
+            System.out.println(getDriver().getCurrentUrl());
         }
         Thread.sleep(3000);
 

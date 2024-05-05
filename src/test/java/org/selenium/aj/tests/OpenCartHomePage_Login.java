@@ -7,18 +7,20 @@ import org.selenium.aj.utils.PropertyReader;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.time.Duration;
+
 import static org.selenium.aj.driver.DriverManagerTL.getDriver;
 
 public class OpenCartHomePage_Login extends CommonToAllTest {
 
     @Test
-    public void clickLoginOption() throws InterruptedException {
+    public void clickLoginOption(){
         HomePage_POM homepagepom = new HomePage_POM();
         homepagepom.openURL(PropertyReader.readKey("URL_HOMEPAGE"));
         homepagepom.clickMyAccount();
-        Thread.sleep(2000);
+        getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         homepagepom.clickLogin();
-        Thread.sleep(2000);
+        getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         homepagepom.openURL(PropertyReader.readKey("URL_LOGIN"));
         Assert.assertEquals(getDriver().getCurrentUrl(), PropertyReader.readKey("URL_LOGIN"));
 

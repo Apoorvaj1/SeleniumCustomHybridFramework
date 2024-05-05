@@ -1,11 +1,11 @@
 
-”	java:S101
-"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(‚éõ¼ûÿÿÿÿ8àÂ±İï1J$2f4e0af6-8106-4901-a89b-0540d431c394
-œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÕºĞ÷8áÂ±İï1J$7c5f5423-e8c8-4d1c-b3a2-6a783cc487cc
-	java:S116"WRename this field "login_button" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹Â‰²üÿÿÿÿ8çÂ±İï1J$4a52c3a8-383a-485a-ac8a-f31ed5f9bda8
-Ÿ	java:S116"^Rename this field "error_message_login" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îêÆE8çÂ±İï1J$287f7c81-8f23-46f6-9b0f-598ee800f680
-¤	java:S116"]Rename this field "EmailAddress_Login" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®±¦¶ıÿÿÿÿ8çÂ±İï1J$f2dcbfdc-184b-4abd-a9a7-1fa2f606f105
- 	java:S116"YRename this field "Password_Login" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­üòÒøÿÿÿÿ8çÂ±İï1J$fc5a5aa1-e4e6-4efb-8ddf-7427785f1ba9
-	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖäÏœ8ëÂ±İï1J$054ec99f-c404-425a-bcaf-c5f397c4a2ca
-	java:S1007"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›å¦8îÂ±İï1J$0a3374ff-0acf-4115-ba5b-546dea0870a8
-m	java:S106?"+Replace this use of System.out by a logger.(­¦è©8ëåµİï1J$65ac48f8-ffa0-4ad5-8aba-d3df5eef93c2
+”	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(‚éõ¼ûÿÿÿÿ8Ë•á¸ô1J$e75cbc7a-69d3-42f8-917f-6b91b800238f
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÕºĞ÷8Í•á¸ô1J$a2d092f5-8eea-4950-82ad-adab71d35e84
+	java:S116"WRename this field "login_button" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹Â‰²üÿÿÿÿ8Ü•á¸ô1J$251525c8-c4d5-43ef-a9dd-28fd8e55d2b6
+Ÿ	java:S116"^Rename this field "error_message_login" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îêÆE8Ü•á¸ô1J$6e025949-7fd1-4ad4-8d13-1737b1d067ff
+¤	java:S116"]Rename this field "EmailAddress_Login" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®±¦¶ıÿÿÿÿ8Ü•á¸ô1J$ae65d416-5be7-4b12-b822-78b40c6b951e
+ 	java:S116"YRename this field "Password_Login" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­üòÒøÿÿÿÿ8Ü•á¸ô1J$caae2f53-5758-4c22-b0b8-692e1b395d8f
+	java:S100 "NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖäÏœ8á•á¸ô1J$4fa3d963-0b29-4e6f-ab18-1be29b481d97
+	java:S1009"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›å¦8å•á¸ô1J$172da43e-dcdc-42eb-a223-c586168fd180
+m	java:S106A"+Replace this use of System.out by a logger.(­¦è©8ë•á¸ô1J$49d91479-a116-4f04-9b9c-cd70d595bed6
+m	java:S106E"+Replace this use of System.out by a logger.(­¦è©8ì•á¸ô1J$7fa5ab54-0584-4d0d-83e4-799c655a2d47

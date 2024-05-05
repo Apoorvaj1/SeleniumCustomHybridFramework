@@ -1,6 +1,3 @@
 
-®
-java:S3577
-"’Rename class "RegisterPage_NoData" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(ÿ²‚éþÿÿÿÿ
-:
-java:S2925"$Remove this use of "Thread.sleep()".(öÍËè
+Ô
+java:S3577"’Rename class "RegisterPage_NoData" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(ÿ²‚éþÿÿÿÿJ$2a438f76-f2af-4c16-8f61-b381d04dc290
