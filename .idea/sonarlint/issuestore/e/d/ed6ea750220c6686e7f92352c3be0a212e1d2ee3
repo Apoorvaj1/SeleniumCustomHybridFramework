@@ -1,19 +1,19 @@
 
 ×
-java:S3577"Rename class "ProductListPage" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(±¬ĞÌùÿÿÿÿ8¦»öåí1J$68ef1796-2d7b-4fbd-9350-2266068243bf
+java:S3577"Rename class "ProductListPage" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(±¬ĞÌùÿÿÿÿ8¦»öåí1J$ac4ffcab-b317-442d-abad-431fd22a65b0
 g
-java:S2925"$Remove this use of "Thread.sleep()".(öÍËè8ùÄ¸ô1J$b37de328-55bd-4c98-8480-ed2aab13977f
+java:S2925"$Remove this use of "Thread.sleep()".(öÍËè8ùÄ¸ô1J$553b42d3-02cc-4932-80e5-9c092642c8f1
 g
-java:S2925"$Remove this use of "Thread.sleep()".(öÍËè8ùÄ¸ô1J$6f64b7d6-1c14-4938-ae4f-83c8313646c2
+java:S2925"$Remove this use of "Thread.sleep()".(öÍËè8ùÄ¸ô1J$fb92a217-94e1-4dfe-9455-da03e56b28b7
 g
-java:S2925"$Remove this use of "Thread.sleep()".(öÍËè8ùÄ¸ô1J$a8ce25e3-e346-4861-b03e-1a0ce73eb584
+java:S2925"$Remove this use of "Thread.sleep()".(öÍËè8ùÄ¸ô1J$ff651cdd-ec14-4e0f-b70f-25392663f8a0
 g
-java:S2925"$Remove this use of "Thread.sleep()".(öÍËè8ùÄ¸ô1J$883604a2-89a8-4aa1-875b-947a14971a3a
+java:S2925"$Remove this use of "Thread.sleep()".(öÍËè8ùÄ¸ô1J$dc19ac1b-3251-4ae7-8389-cfd1a88cfaad
 g
-java:S2925"$Remove this use of "Thread.sleep()".(öÍËè8ùÄ¸ô1J$700f5c1b-e2f0-427b-b9eb-a84eaa68c27f
+java:S2925"$Remove this use of "Thread.sleep()".(öÍËè8ùÄ¸ô1J$26ab8a26-d2b1-42a3-911b-18ece5addd94
 g
-java:S2925!"$Remove this use of "Thread.sleep()".(¬Æ„°8ùÄ¸ô1J$ec98014f-abc3-441a-ae5d-e4b06c020c53
+java:S2925!"$Remove this use of "Thread.sleep()".(¬Æ„°8ùÄ¸ô1J$b9a10518-3428-42da-b08e-e9a6c3553a82
 g
-java:S2925#"$Remove this use of "Thread.sleep()".(öÍËè8ùÄ¸ô1J$f7f102ff-2799-4025-893d-06ad92bd0923
-A
-java:S2925%"$Remove this use of "Thread.sleep()".(öÍËè8–•Å¸ô1
+java:S2925#"$Remove this use of "Thread.sleep()".(öÍËè8ùÄ¸ô1J$6dd3ccad-b959-457d-bc89-2f3a05271b84
+g
+java:S2925%"$Remove this use of "Thread.sleep()".(öÍËè8–•Å¸ô1J$90c39a74-7a24-48c3-8a8e-5d95e871b069

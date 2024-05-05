@@ -8,7 +8,7 @@ public class CommonToAllTest {
 
     @BeforeTest
     public void setUp(){
-        DriverManagerTL.init();
+        DriverManagerTL.init("Edge");
     }
 
     @AfterTest
