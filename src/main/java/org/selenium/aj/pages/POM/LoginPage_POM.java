@@ -15,12 +15,12 @@ public class LoginPage_POM extends CommonToAllPage {
         super();
     }
 
-    By login_button = By.xpath("//input[@value=\"Login\"]");
-    By error_message_login = By.xpath("//div[text()=\" Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.\"]");
+    private By login_button = By.xpath("//input[@value=\"Login\"]");
+    private By error_message_login = By.xpath("//div[text()=\" Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.\"]");
 
-    By EmailAddress_Login = By.xpath("//input[@id=\"input-email\"]");
+    private By EmailAddress_Login = By.xpath("//input[@id=\"input-email\"]");
 
-    By Password_Login = By.xpath("//input[@name=\"password\"]");
+    private By Password_Login = By.xpath("//input[@name=\"password\"]");
 
     public void clickLogin(){
         clickElement(login_button);

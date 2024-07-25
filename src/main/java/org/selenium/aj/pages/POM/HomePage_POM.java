@@ -10,16 +10,16 @@ public class HomePage_POM extends CommonToAllPage {
     }
 
     //-------------Page Locators-------------------------
-    By MyAccount = By.xpath("(//span[@class=\"hidden-xs hidden-sm hidden-md\"])[3]");
-    By Currency = By.xpath("(//span[@class=\"hidden-xs hidden-sm hidden-md\"])[1]");
-    By ShoppingCart = By.xpath("(//span[@class=\"hidden-xs hidden-sm hidden-md\"])[5]");
-    By Checkout = By.xpath("(//span[@class=\"hidden-xs hidden-sm hidden-md\"])[6]");
+    private By MyAccount = By.xpath("(//span[@class=\"hidden-xs hidden-sm hidden-md\"])[3]");
+    private By Currency = By.xpath("(//span[@class=\"hidden-xs hidden-sm hidden-md\"])[1]");
+    private By ShoppingCart = By.xpath("(//span[@class=\"hidden-xs hidden-sm hidden-md\"])[5]");
+    private By Checkout = By.xpath("(//span[@class=\"hidden-xs hidden-sm hidden-md\"])[6]");
 
-    By RegisterDropdown = By.linkText("Register");
+    private By RegisterDropdown = By.linkText("Register");
 
-    By LoginDropdown = By.linkText("Login");
+    private By LoginDropdown = By.linkText("Login");
 
-    By Logout = By.linkText("Logout");
+    private By Logout = By.linkText("Logout");
 
     public void clickMyAccount(){
         clickElement(MyAccount);

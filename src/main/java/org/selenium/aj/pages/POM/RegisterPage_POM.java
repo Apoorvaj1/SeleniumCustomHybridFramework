@@ -21,18 +21,18 @@ public class RegisterPage_POM extends CommonToAllPage {
     public RegisterPage_POM(){
         super();
     }
-    By FirstName = By.xpath("//input[@name=\"firstname\"]");
-    By LastName = By.xpath("//input[@name=\"lastname\"]");
-    By Email = By.xpath("//input[@name=\"email\"]");
-    By Password = By.xpath("//input[@name=\"password\"]");
-    By Checkbox = By.xpath("//input[@type=\"checkbox\"]");
+    private By FirstName = By.xpath("//input[@name=\"firstname\"]");
+    private By LastName = By.xpath("//input[@name=\"lastname\"]");
+    private By Email = By.xpath("//input[@name=\"email\"]");
+    private By Password = By.xpath("//input[@name=\"password\"]");
+    private By Checkbox = By.xpath("//input[@type=\"checkbox\"]");
 
-    By Telephone = By.xpath("//input[@name=\"telephone\"]");
+    private By Telephone = By.xpath("//input[@name=\"telephone\"]");
 
-    By confirmPassword = By.xpath("//input[@name=\"confirm\"]");
-    By Continue_button = By.xpath("//input[@type=\"submit\"]");
+    private By confirmPassword = By.xpath("//input[@name=\"confirm\"]");
+    private By Continue_button = By.xpath("//input[@type=\"submit\"]");
 
-    By error_message = By.xpath("//div[text()=\" Warning: You must agree to the Privacy Policy!\"]");
+    private By error_message = By.xpath("//div[text()=\" Warning: You must agree to the Privacy Policy!\"]");
 
     public void enterFirstName(){
         enterInput(FirstName,firstname_dyanamic);

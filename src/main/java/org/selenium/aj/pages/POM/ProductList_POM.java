@@ -8,19 +8,19 @@ public class ProductList_POM extends CommonToAllPage {
         super();
     }
 
-    By AddToCart = By.xpath("//span[text()=\"Add to Cart\"]");
+    private By AddToCart = By.xpath("//span[text()=\"Add to Cart\"]");
 
-    By AddToCart_iPhone = By.xpath("(//span[text()=\"Add to Cart\"])[2]");
+    private By AddToCart_iPhone = By.xpath("(//span[text()=\"Add to Cart\"])[2]");
 
-    By viewCart = By.xpath("//strong[text()=\" View Cart\"]");
+    private By viewCart = By.xpath("//strong[text()=\" View Cart\"]");
 
-    By checkout = By.linkText("Checkout");
+    private By checkout = By.linkText("Checkout");
 
-    By logout = By.linkText("Logout");
+    private By logout = By.linkText("Logout");
 
-    By Continue = By.linkText("Continue");
+    private By Continue = By.linkText("Continue");
 
-    By totalCost = By.xpath("(//table[@class=\"table table-bordered\"])[1]/tbody/tr[4]/td[2]");
+    private By totalCost = By.xpath("(//table[@class=\"table table-bordered\"])[1]/tbody/tr[4]/td[2]");
 
     public void clickViewCart(){
         clickElement(viewCart);

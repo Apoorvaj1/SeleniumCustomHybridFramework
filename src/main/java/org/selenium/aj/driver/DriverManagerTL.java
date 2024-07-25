@@ -15,7 +15,7 @@ public class DriverManagerTL {
             dr.set(driverRef);
         }
 
-        public static WebDriver getDriver(){
+        public static synchronized WebDriver getDriver(){
             return dr.get();
         }
 

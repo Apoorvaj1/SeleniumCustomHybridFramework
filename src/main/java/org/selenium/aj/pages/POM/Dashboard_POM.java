@@ -8,16 +8,16 @@ public class Dashboard_POM extends CommonToAllPage {
         super();
     }
 
-    By Desktops = By.linkText("Desktops");
-    By MAC = By.xpath("//a[contains(text(),\"Mac \")]");
+    private By Desktops = By.linkText("Desktops");
+    private By MAC = By.xpath("//a[contains(text(),\"Mac \")]");
 
-    By Phones = By.linkText("Phones & PDAs");
+    private By Phones = By.linkText("Phones & PDAs");
 
-    By CartTotal = By.xpath("//span[@id=\"cart-total\"]");
+    private By CartTotal = By.xpath("//span[@id=\"cart-total\"]");
 
-    By MyAccount = By.xpath("//span[text()=\"My Account\"]");
+    private By MyAccount = By.xpath("//span[text()=\"My Account\"]");
 
-    By MyAccount_Dropdown = By.xpath("(//a[text()=\"Transactions\"])[1]");
+    private By MyAccount_Dropdown = By.xpath("(//a[text()=\"Transactions\"])[1]");
 
     public void clickDesktops(){
         moveToElement(Desktops).build().perform();

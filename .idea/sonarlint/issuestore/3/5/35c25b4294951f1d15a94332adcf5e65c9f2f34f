@@ -1,10 +1,10 @@
 
-”	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ï÷Šœùÿÿÿÿ8Úê”Ãî1J$9297a3b8-3a04-488a-b63a-0d65468f22a6
-œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÕºĞ÷8Üê”Ãî1J$ca4f5a78-e0ca-46b9-b836-6091d5a2c7b9
-›	java:S116"TRename this field "AddToCart" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Óƒ¾öıÿÿÿÿ8âê”Ãî1J$e780dc68-c2e8-4b9e-aa0b-274d82f809fb
-¢	java:S116"[Rename this field "AddToCart_iPhone" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”²âÀúÿÿÿÿ8âê”Ãî1J$801341b5-f086-4e2f-9749-0f19288af484
-š	java:S116"SRename this field "Continue" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Àüÿÿÿÿ8âê”Ãî1J$71af6a9b-e7d7-4c18-9303-992315d2686b
-	java:S100("NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Âç¶q8æê”Ãî1J$1f801e6c-c3aa-4a62-afc5-96d9e42972ce
-	java:S100-"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾±Ïì8çê”Ãî1J$74a151c0-69d1-4ee5-a478-58d841e4403f
+”	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ï÷Šœùÿÿÿÿ8Úê”Ãî1J$64d2f20f-9629-4c6d-9462-0577ee77f07a
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÕºĞ÷8Üê”Ãî1J$40a2435b-a74f-43e4-a08a-1f3a66e90059
+–	java:S116"TRename this field "AddToCart" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ó¡ô’8âê”Ãî1J$4a8c15cd-0a0e-4d73-ab42-941e9a02b52b
+	java:S116"[Rename this field "AddToCart_iPhone" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß…šÑ8âê”Ãî1J$f3dd852f-d921-48f0-b0ad-275f0e613324
+š	java:S116"SRename this field "Continue" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š…İ¾şÿÿÿÿ8âê”Ãî1J$c68be992-55e7-4272-a8fb-313a8d812a92
+	java:S100("NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Âç¶q8æê”Ãî1J$fcdd083a-b1af-4c11-bf72-fe7573621161
+	java:S100-"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾±Ïì8çê”Ãî1J$6b0caa72-322b-4df1-a0d9-2d6464d0115f
 •
-java:S1128"MRemove this unused import 'org.selenium.aj.driver.DriverManagerTL.getDriver'.(‚§çúşÿÿÿÿ8‹‡•Ãî1J$a6fc0214-5811-412d-b7b0-378a2d926ff9
+java:S1128"MRemove this unused import 'org.selenium.aj.driver.DriverManagerTL.getDriver'.(‚§çúşÿÿÿÿ8‹‡•Ãî1J$d2b4b5ba-712d-4b09-9044-c3c8ea450402
